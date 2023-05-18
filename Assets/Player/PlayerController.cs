@@ -4,6 +4,7 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 
 [RequireComponent(typeof(LineRenderer))]
+[RequireComponent(typeof(HingeJoint))]
 
 public class PlayerController : MonoBehaviour
 {
